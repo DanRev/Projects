@@ -1,5 +1,6 @@
 import Test from './components/Binary';
 import CountdownTimer from './components/CountdownTimer';
+import FlipImage from './components/FlipImage';
 import ReactDOM from 'react-dom';
 import Swal from 'sweetalert2';
 import React from 'react';
@@ -59,7 +60,7 @@ alert = function (msg,icon = "error",onOk = undefined) {
 
 prompt = async function (msg,icon = "error") {
   let { value: text } = await Swal.fire({
-    input: 'textarea',
+    input: 'text',
     inputLabel: 'Message',
     inputPlaceholder: 'Type your message here...',
     inputAttributes: {
@@ -80,6 +81,8 @@ async function createItem(){
         return <Test/>;
       case "2":
         return <CountdownTimer/>;
+      case "3":
+        return <FlipImage/>;
       default:
         return "";
     }

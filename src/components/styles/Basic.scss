@@ -5,12 +5,38 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    
-    
 
+    &__arrow{
+        display: flex;
+        flex-direction: column;
+        width: 4em;
+        &--left{
+            flex-direction: row;
+            height: 4em;
+            display: flex;
+        }
+    }
+
+    &__arrowsContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
     &__countdown{
         display: flex;
         margin-top: 5em;
+    }
+
+    &__display{
+        display: grid;
+        grid-template-columns: 6fr 4fr;
+        text-align: center;
+    }
+
+    &__image{
+        cursor: pointer;
+        margin: 0.5em;
     }
 
     &__infoInputs{

@@ -42,6 +42,7 @@ export default function CountdownTimer() {
     for (var i = 0; i < tags.length; i++) {
       tags[i].innerHTML = arrayContent[i];
     }
+    setNewInterval(undefined);
   }
 
   return (
