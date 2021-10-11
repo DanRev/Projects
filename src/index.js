@@ -1,5 +1,5 @@
 import Test from './components/Binary';
-import Calculator from './components/Calculator';
+import CountdownTimer from './components/CountdownTimer';
 import ReactDOM from 'react-dom';
 import Swal from 'sweetalert2';
 import React from 'react';
@@ -79,7 +79,7 @@ async function createItem(){
       case "1":
         return <Test/>;
       case "2":
-        return <Calculator/>;
+        return <CountdownTimer/>;
       default:
         return "";
     }

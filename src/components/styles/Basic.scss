@@ -5,22 +5,23 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
-    &__inputs{
-        display: flex;
-    }
-
-    &__group{
-        width: 20em;
-        margin-right: 1em;
-        &--right{
-            width: 20em;
-        }
-    }
-
-}
-
-.calculator{
     
+    
+
+    &__countdown{
+        display: flex;
+        margin-top: 5em;
+    }
+
+    &__infoInputs{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 35%;
+    }
+
+    &__time{
+        margin-right: 2em;
+    }
 }
 
