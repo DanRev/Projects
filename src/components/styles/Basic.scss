@@ -51,3 +51,40 @@
     }
 }
 
+
+.QuizItem{
+    border: 1px solid;
+    padding: 1.5em;
+    border-radius: 5px;
+    background: #0094da;
+    max-width: 45em;
+    min-width: 45em;
+    text-align: center;
+
+    &__title{
+        margin-bottom: 2em;
+        display: flex;
+        justify-content: center;
+    }
+
+    &__answers{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        grid-column-gap: 8em;
+        grid-row-gap: 2em;
+        padding: 1.5em;
+        background: white;
+    }
+
+    &__answerItem{
+        padding: 0.5em;
+        min-width: 14em;
+        list-style-position: inside;
+        list-style-type: upper-latin;
+        &::marker {
+            color: blue;
+            font-size: 1.2em;
+        }
+    }
+}

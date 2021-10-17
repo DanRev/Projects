@@ -1,6 +1,7 @@
 import Test from './components/Binary';
 import CountdownTimer from './components/CountdownTimer';
 import FlipImage from './components/FlipImage';
+import QuizApp from './pages/QuizApp';
 import ReactDOM from 'react-dom';
 import Swal from 'sweetalert2';
 import React from 'react';
@@ -83,6 +84,8 @@ async function createItem(){
         return <CountdownTimer/>;
       case "3":
         return <FlipImage/>;
+      case "4":
+        return <QuizApp/>;
       default:
         return "";
     }

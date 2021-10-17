@@ -1,0 +1,80 @@
+{
+  "questions": [
+    {
+      "id": "1",
+      "question":"What does CPU stand for?",
+      "correct_answer": "Central Processing Unit",
+      "incorrect_answers": [
+        "Central Process Unit",
+        "Computer Personal Unit",
+        "Central Processor Unit"
+      ]
+    },
+    {
+      "id": "2",
+      "question": "Whistler was the codename of this Microsoft Operating System.",
+      "correct_answer": "Windows XP",
+      "incorrect_answers": [
+        "Windows 2000",
+        "Windows 7",
+        "Windows 95"
+      ]
+    },
+    {
+      "id": "3",
+      "question": "Moore's law originally stated that the number of transistors on a microprocessor chip would double every...",
+      "correct_answer": "Year",
+      "incorrect_answers": [
+        "Four Years",
+        "Two Years",
+        "Eight Years"
+      ]
+    },
+    {
+      "id": "4",
+      "question": "Which company was established on April 1st, 1976 by Steve Jobs, Steve Wozniak and Ronald Wayne?",
+      "correct_answer": "Apple",
+      "incorrect_answers": [
+        "Microsoft",
+        "Atari",
+        "Commodore"
+      ]
+    },
+    {
+      "id": "5",
+      "question": "In the programming language Java, which of these keywords would you put on a variable to make sure it doesn't get modified?",
+      "correct_answer": "Final",
+      "incorrect_answers": [
+        "Static",
+        "Private",
+        "Public"
+      ]
+    },
+    {
+      "id": "6",
+      "question": "Pointers were not used in the original C programming language; they were added later on in C++.",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "id": "7",
+      "question": "What is the code name for the mobile operating system Android 7.0?",
+      "correct_answer": "Nougat",
+      "incorrect_answers": [
+        "Ice Cream Sandwich",
+        "Jelly Bean",
+        "Marshmallow"
+      ]
+    },
+    {
+      "id": "8",
+      "question": "RAM stands for Random Access Memory.",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    }
+  ]
+}
